@@ -1,8 +1,24 @@
 * {
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 /* Styles for header Section */
 
 .header {
     background-image: url(../images/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 808px;
+}
+
+.hero {
+    margin-right: 230px;
+    padding: 216px 230px;
+}
+.hero-text {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
 }
