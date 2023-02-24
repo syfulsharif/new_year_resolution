@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+}
+/* Styles for header Section */
+
+.header {
+    background-image: url(../images/banner1.png);
+}
