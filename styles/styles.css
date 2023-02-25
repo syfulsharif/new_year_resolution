@@ -91,3 +91,28 @@
     line-height: 26px;
     color: #444343;
 }
+
+/* Plans Section Styles */
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    text-align: center;
+}
+
+.plan-list {
+    display: flex;
+    gap: 130px;
+    margin: 130px 230px;
+    text-align: center;
+}
+
+.plan-list h1 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    margin-top: 20px;
+    padding: 5px;
+}
