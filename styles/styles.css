@@ -151,3 +151,114 @@
     border-radius: 5px;
     border: none;
 }
+
+/* Travel Section */
+.cities-to-travel h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.cities {
+    display: flex;
+    gap: 30px;
+    margin: 30px 200px;
+}
+
+.city {
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 25px;
+    padding: 30px;
+}
+
+#ny {
+    background-image: url(/images/statue-of-liberty.png);
+    background-color: rgba(241, 91, 34, 0.625); 
+}
+#jp {
+    background-image: url(/images/fuji.png);
+    background-color: rgba(241, 91, 34, 0.625);
+}
+
+#bali {
+    background-image: url(/images/indonesia.png);
+    background-color: rgba(241, 91, 34, 0.625);
+}
+
+#sg {
+    background-image: url(/images/sg.png);
+    background-color: rgba(241, 91, 34, 0.625);
+}
+
+.city-text {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 100% 20px;
+}
+
+/* Footer Section */
+
+.footer-contents {
+    display: flex;
+    background-color: #151414;
+    padding: 130px 230px;
+    gap: 330px;
+}
+
+.footer-text h3 {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+
+.footer-text p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#email {
+    margin: 24px 0px;
+}
+
+#phone {
+    margin-bottom: 32px;
+}
+
+
+.subscribe-form h4 {
+    color: #F8F8F8;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+
+.subscribe-form input {
+    border-color: white;
+    border-radius: 8px;
+    width: 325px;
+    height: 30px;
+    background: #151414;
+    padding: 5px 30px 5px 10px;
+}
+
+.subscribe-form input::placeholder {
+    color: white;
+}
+
+.subscribe-form button {
+    display: block;
+    margin-top: 16px;
+    width: 170px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+}
